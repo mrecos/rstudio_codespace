@@ -42,6 +42,6 @@ sudo rstudio-server start
 
 # add rstudio user
 ```
-sudo useradd rstudio_user
-sudo echo rstudio_user:rstudio_user | chpasswd 
+sudo useradd rstudio
+echo rstudio:rstudio | sudo chpasswd 
 ```
