@@ -37,4 +37,11 @@ rsession-which-r=/opt/conda/bin/R
 ```
 sudo rstudio-server stop
 sudo rstudio-server verify-installation
+sudo rstudio-server start
+```
+
+# add rstudio user
+```
+sudo useradd rstudio_user
+sudo echo rstudio_user:rstudio_user | chpasswd 
 ```
